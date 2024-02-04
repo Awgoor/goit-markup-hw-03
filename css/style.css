@@ -11,7 +11,7 @@ body {
     background: #FFFFFF;
     width: 1440px;
     height: 72px;
-    display: inline;
+    display: inline-block;
 } 
 
 
