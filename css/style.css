@@ -27,9 +27,9 @@ p {
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .section {
@@ -41,7 +41,6 @@ p {
 /* Header */
 
 .header {
-    max-width: 1158px;
     background: #FFFFFF;
 } 
 .header-inner {
@@ -114,10 +113,8 @@ p {
 .business-section {
     background-color: #2E2F42;
     padding: 120px 0;
-    max-width: 1158px;
-    
-
 }
+
 .main-title {
     color: #FFFFFF;
     text-align: center;
@@ -125,12 +122,11 @@ p {
     font-weight: 700;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    max-width: 496px;
+    width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
-    
-    
-}
+    }
+
 .order-button {
     background-color:#4D5AE5;
     color: #FFFFFF;
@@ -162,18 +158,15 @@ p {
     display: flex;
     list-style-type: none;
     gap: 24px;
-    width: 1128px;
-    height: 104px;
-   
-
 }
+
 .title {
     color:  #2E2F42; 
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em
-    }
+}
 
 
 .text {
@@ -182,13 +175,13 @@ p {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 264px;
+    width: 264px;
 } 
 
 /* Our team */
 
 .team-section {
-    max-width: 1158px;
+    
     background-color: #F4F4FD;
     padding-bottom: 120px;
 }
@@ -208,6 +201,7 @@ p {
    display: flex;
    gap: 24px;
    list-style-type: none;
+   
    
  }
 .team-list-cont {
@@ -239,7 +233,7 @@ p {
 /* Portfolio */
 
 .portfolio {
-    max-width: 1158px;
+   
     background-color: #FFF;
 }
 
@@ -291,7 +285,7 @@ padding: 32px 24px ;
 /* Footer */
 
 .page-footer {
-     width: 1158px;
+     
      background-color: #2E2F42;
     
     }
@@ -304,9 +298,7 @@ padding: 32px 24px ;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
-    padding-top: 101.5px;
-    padding-bottom: 17.5px;
-    padding-left: 156px;
+    
     
 }
 
@@ -317,7 +309,7 @@ padding: 32px 24px ;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 264px;
-    padding-top: 140px;
-    padding-bottom: 100px;
+    width: 264px;
+    padding: 140px 1020px 100px 156px;
+   
    }
