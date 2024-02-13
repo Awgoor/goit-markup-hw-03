@@ -298,8 +298,8 @@ padding: 32px 24px ;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
-    
-    
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-bottom{color: #f4f4fd;}
@@ -309,7 +309,4 @@ padding: 32px 24px ;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
-    padding: 140px 1020px 100px 156px;
-   
-   }
+}
