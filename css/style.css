@@ -1,3 +1,8 @@
+*,
+*::before *::after {
+    box-sizing: border-box;
+}
+
 body {
     color:#434455;
     background-color: #FFFFFF;
@@ -34,21 +39,30 @@ p {
     padding: 120px 0;
     
 }
- 
+img {
+    display: block;
+    max-width: 100%;
+}
 
 /* Header */
 
 .header {
     background: #FFFFFF;
+    border-bottom: 1px solid #e7e9fc
 } 
-
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header-inner {
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -66,18 +80,24 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
-    padding: 24px 0;
-
+    margin-right: 76px;
+    
 }
 .logo-top {
     color: #2E2F42; 
-    margin-right: 76px;
+   
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+   
 }
 .nav-list-item {
-    padding: 24px 0;
+   
 }
 .address-link-item {
-    padding: 24px 0;
+   
+    
 }
 
 .header-link {
@@ -87,6 +107,8 @@ p {
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-decoration: none;
+    padding: 24px 0;
+    display: block;
     
     
 }
@@ -101,6 +123,7 @@ p {
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    text-wrap: nowrap;
 }
 
 .address-link-item .address-link-subtitle:hover {color:#404bbf}
@@ -177,7 +200,6 @@ p {
 /* Our team */
 
 .team-section {
-    
     background-color: #F4F4FD;
     padding-bottom: 120px;
 }
@@ -189,8 +211,7 @@ p {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+   margin-bottom: 72px;
 }
 
 .team-list {
@@ -200,6 +221,9 @@ p {
    
    
  }
+.team-list-item {
+    width: calc ((100% - 24px *3) / 4);
+}
 .team-list-cont {
     width: 264px;
     text-align: center;
@@ -241,8 +265,7 @@ p {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     padding-right: auto;
     padding-left: auto;
 }
@@ -282,11 +305,12 @@ padding: 32px 24px ;
 
 .page-footer {
      
-     background-color: #2E2F42;
+    background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
+   
     }
+
 .logo-footer {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -296,15 +320,16 @@ padding: 32px 24px ;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
-    margin-bottom: 16px;
+   margin-bottom: 16px;
     display: inline-block;
 }
 
 .logo-bottom{color: #f4f4fd;}
-.copyright-text {
+.footer-text {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+   
 }
