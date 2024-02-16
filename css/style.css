@@ -47,7 +47,7 @@ img {
 /* Header */
 
 .header {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc
 } 
 .header-container {
@@ -87,11 +87,9 @@ img {
     color: #2E2F42; 
    
 }
-.nav-list {
-    display: flex;
-    gap: 40px;
+
    
-}
+
 .nav-list-item {
    
 }
@@ -206,7 +204,7 @@ img {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     
 }
 
@@ -246,7 +244,7 @@ img {
    
  }
 .team-list-item {
-    width: calc ((100% - 24px *3) / 4);
+    width: calc ((100% - 24px * 3) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .team-list-cont {
