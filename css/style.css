@@ -67,7 +67,7 @@ img {
 
 .nav-list {
     display: flex;
-    gap: 40px;
+
     list-style-type: none;
 }
 /* logotip */
